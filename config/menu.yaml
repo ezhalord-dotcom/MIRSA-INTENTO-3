@@ -1,0 +1,16 @@
+# Navegación del dashboard. Edita etiquetas, íconos y orden sin tocar código.
+# view: home | diagnostico | ahp | module | resultados | economia | conclusiones | explorador | sync
+sections:
+  - {id: inicio, label: "Inicio", icon: "🏠", view: home}
+  - {id: diagnostico, label: "Empresa y diagnóstico", icon: "🏢", view: diagnostico}
+  - {id: ahp, label: "Selección de problemas (AHP)", icon: "⚖️", view: ahp, sheet: "Matriz AHP "}
+  - {id: obj2, label: "Objetivo 2 · Slotting", icon: "📦", view: module, module: obj2}
+  - {id: obj3, label: "Objetivo 3 · Conteo cíclico", icon: "🔢", view: module, module: obj3}
+  - {id: obj4, label: "Objetivo 4 · MRP", icon: "🚚", view: module, module: obj4}
+  - {id: obj5, label: "Objetivo 5 · Lote por lote", icon: "🧊", view: module, module: obj5}
+  - {id: minmax, label: "Modelo Min-Max", icon: "📊", view: module, module: minmax}
+  - {id: resultados, label: "Resultados generales", icon: "📈", view: resultados}
+  - {id: economia, label: "Evaluación económica", icon: "💰", view: economia}
+  - {id: conclusiones, label: "Conclusiones y recomendaciones", icon: "📝", view: conclusiones}
+  - {id: explorador, label: "Explorador de hojas", icon: "🗂️", view: explorador}
+  - {id: sync, label: "Sincronización", icon: "🔄", view: sync}
